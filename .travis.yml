@@ -7,7 +7,6 @@ jsk: openjdk8
 
 script:
   - ./gradlew build -s
-  - jdk_switcher use openjdk8
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
