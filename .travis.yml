@@ -1,7 +1,9 @@
 language: java
+install: true
 
 os: osx
 dist: trusty
+jsk: openjdk8
 
 script:
   - ./gradlew build
