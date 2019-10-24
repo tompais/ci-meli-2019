@@ -7,13 +7,3 @@ jdk: oraclejdk8
 
 script:
   - ./gradlew build -s
-
-addons:
-	homebrew:
-		packages:
-		- beanstalk
-		update: true
-		casks:
-		- dotnet-sdk
-		taps: homebrew/cask-versions
-		casks: java8
